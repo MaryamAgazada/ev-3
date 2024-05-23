@@ -1,0 +1,86 @@
+.hero{
+    background-color: rgb(50, 47, 47);
+    color: white;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-left{
+        max-width: 500px;
+        h1{
+            font-size: 68px;
+            font-weight: 700;
+        }
+        .text-1{
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .text-2{
+           color: grey;
+        }
+    }
+    .hero-right{
+        img{
+            height: 500px;
+        }
+       
+    }
+}
+.splendid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .splendid-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+}
+.choose{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(50, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .texts{
+        width: 200px;
+        p{
+            color: grey;
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card{
+          width: 100px;
+          height: 100px;
+        }
+        .delete{
+            color: red;
+        }
+    }
+}
+@media only screen and (max-width: 650px) {
+    .hero{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; 
+      .hero-right {
+        height: 300px;
+        width: 300px;
+        img{
+            height: 100%;
+            width: 100%; 
+        }
+      }
+       
+    }
+  }

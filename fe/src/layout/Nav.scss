@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 47, 47);
+    width: 100%;
+    min-height: 80px;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    z-index: 1;
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .list{
+            list-style: none;
+            margin-right: 15px;
+            .item{
+                text-decoration: none;
+                color: white;
+            }
+            .wish{
+                padding: 10px 15px;
+                background-color: violet;
+                border: 1px solid violet;
+                border-radius: 20px;
+            }
+        }
+    }
+}
